@@ -7,6 +7,7 @@ $inputString = fgets($_fp); // get a line of input from stdin and save it to our
 print("Hello, World.\n");
 
 // Write the second line of output
+print($inputString);
 
 fclose($_fp);
 ?>
